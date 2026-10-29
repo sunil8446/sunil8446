@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Sunil Chaudhary — Data, Software, and Cloud Engineer</title>
+  <desc id="desc">A dark systems blueprint connecting data ingestion, streaming, transformation, cloud, and reliable delivery.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#0b1828"/>
+      <stop offset="1" stop-color="#07131d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4de3c1"/>
+      <stop offset="0.5" stop-color="#6eb8ff"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#4de3c1" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#4de3c1" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#8ba4bd" stroke-opacity=".08"/>
+    </pattern>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <ellipse cx="965" cy="155" rx="285" ry="245" fill="url(#glow)"/>
+  <path d="M0 282C190 242 335 332 535 288S843 215 1200 258V360H0Z" fill="#0c2130" fill-opacity=".48"/>
+  <rect x="22" y="22" width="1156" height="316" rx="18" fill="none" stroke="#94a9bd" stroke-opacity=".14"/>
+
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+    <g transform="translate(66 64)">
+      <rect width="194" height="28" rx="14" fill="#0f2a33" stroke="#4de3c1" stroke-opacity=".35"/>
+      <circle cx="16" cy="14" r="4" fill="#4de3c1" filter="url(#softGlow)"/>
+      <text x="29" y="19" fill="#8ff2dc" font-size="12" font-weight="700" letter-spacing="1.6">AVAILABLE NOW · USA</text>
+    </g>
+
+    <text x="66" y="145" fill="#f3f8fc" font-size="52" font-weight="800" letter-spacing="-1.5">Sunil Chaudhary</text>
+    <rect x="66" y="166" width="476" height="4" rx="2" fill="url(#accent)"/>
+    <text x="66" y="207" fill="#b8c9d8" font-size="20" font-weight="500" letter-spacing="2">DATA  ·  SOFTWARE  ·  CLOUD</text>
+    <text x="66" y="245" fill="#7f95a8" font-size="16">I build data systems that stay correct when reality gets messy.</text>
+
+    <g transform="translate(66 281)">
+      <text y="0" fill="#4de3c1" font-size="13" font-weight="700">40M+</text>
+      <text x="47" y="0" fill="#7f95a8" font-size="13">ROWS MIGRATED</text>
+      <text x="190" y="0" fill="#6eb8ff" font-size="13" font-weight="700">22</text>
+      <text x="214" y="0" fill="#7f95a8" font-size="13">PRODUCTION DAGS</text>
+      <text x="365" y="0" fill="#a78bfa" font-size="13" font-weight="700">40+</text>
+      <text x="399" y="0" fill="#7f95a8" font-size="13">INTEGRATION TESTS</text>
+    </g>
+  </g>
+
+  <g transform="translate(710 51)" font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <g fill="none" stroke="#547187" stroke-width="1.5" stroke-opacity=".68">
+      <path d="M78 52H166V117H250"/>
+      <path d="M166 117V190H250"/>
+      <path d="M334 117H416"/>
+      <path d="M334 190H376V260H416"/>
+    </g>
+    <g fill="#4de3c1">
+      <circle cx="166" cy="52" r="3"/>
+      <circle cx="166" cy="117" r="3"/>
+      <circle cx="166" cy="190" r="3"/>
+    </g>
+    <g font-size="10" font-weight="700" letter-spacing="1.1">
+      <g transform="translate(0 30)">
+        <rect width="78" height="44" rx="8" fill="#0d2430" stroke="#4de3c1" stroke-opacity=".6"/>
+        <text x="39" y="27" text-anchor="middle" fill="#8ff2dc">INGEST</text>
+      </g>
+      <g transform="translate(250 95)">
+        <rect width="84" height="44" rx="8" fill="#102435" stroke="#6eb8ff" stroke-opacity=".6"/>
+        <text x="42" y="27" text-anchor="middle" fill="#9dd0ff">STREAM</text>
+      </g>
+      <g transform="translate(250 168)">
+        <rect width="84" height="44" rx="8" fill="#171f38" stroke="#a78bfa" stroke-opacity=".6"/>
+        <text x="42" y="27" text-anchor="middle" fill="#c7b7ff">MODEL</text>
+      </g>
+      <g transform="translate(416 95)">
+        <rect width="82" height="44" rx="8" fill="#102435" stroke="#6eb8ff" stroke-opacity=".6"/>
+        <text x="41" y="27" text-anchor="middle" fill="#9dd0ff">SERVE</text>
+      </g>
+      <g transform="translate(416 238)">
+        <rect width="82" height="44" rx="8" fill="#0d2430" stroke="#4de3c1" stroke-opacity=".6"/>
+        <text x="41" y="27" text-anchor="middle" fill="#8ff2dc">PROVE</text>
+      </g>
+    </g>
+    <g font-size="10" fill="#607b90" letter-spacing=".8">
+      <text x="102" y="45">EVENTS</text>
+      <text x="181" y="109">VALIDATE</text>
+      <text x="181" y="182">TRANSFORM</text>
+      <text x="345" y="109">API</text>
+      <text x="349" y="250">TEST + OBSERVE</text>
+    </g>
+  </g>
+</svg>
